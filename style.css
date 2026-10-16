@@ -23,11 +23,12 @@ header {
 
 .header {
     width: 900px;
+    max-width: calc(100% - 30px);
+    min-height: 75px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
 }
 
 .logo {
